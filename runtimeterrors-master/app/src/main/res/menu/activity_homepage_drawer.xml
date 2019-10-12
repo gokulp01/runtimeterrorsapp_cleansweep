@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_points"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="@string/current_points" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_graphic_eq_black_24dp"
+            android:title="@string/host_join_social_network" />
+        <item
+            android:id="@+id/nav_achieve"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="@string/achievements" />
+        <item
+            android:id="@+id/nav_leader"
+            android:icon="@drawable/ic_format_list_numbered_black_24dp"
+            android:title="@string/leaderboards" />
+    </group>
+
+    <item android:title="@string/developers">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_sms_failed_black_24dp"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_contribute"
+                android:icon="@drawable/ic_attach_money_black_24dp"
+                android:title="@string/contributer" />
+            <item
+                android:id="@+id/nav_feed"
+                android:icon="@drawable/ic_thumb_up_black_24dp"
+                android:title="@string/feedback" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        android:title="@string/logout" />
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".clickpic" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="424dp"
+        android:layout_height="506dp"
+        />
+
+    <Button
+        android:id="@+id/buttonnotify"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="#089EB1"
+        android:foreground="#00008577"
+        android:text="Click Picture"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:enabled="false"
+        android:text="DONE" />
+</LinearLayout>

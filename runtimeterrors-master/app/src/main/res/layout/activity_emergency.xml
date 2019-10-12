@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_emergency_phone"
+    tools:context=".emergency">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="619dp"
+        android:text="EMERGENCY CONTACTS"
+        android:textColor="#FAF5F5F5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="414dp"
+        android:layout_height="587dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:stretchColumns="1"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:text="KMC ambulance "
+                    android:textColor="#F8E100"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonnotify"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:text="MAHE campus patrol "
+                    android:textSize="24sp"
+                    android:textColor="#F8E100"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F8E100"
+                    android:text="Blood Bank "
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F8E100"
+                    android:text="Electricity Board"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F8E100"
+                    android:text="SP-Office "
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F8E100"
+                    android:text="Control Room "
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F8E100"
+                    android:text="Ambulance "
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="321dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F8E100"
+                    android:text="Fire Service "
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="354dp"
+                    android:layout_height="match_parent"
+                    android:text="Snake catcher  "
+                    android:textColor="#F8E100"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/ic_call_black_24dp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
